@@ -3,11 +3,13 @@
 function scr_playerStateWalking(){
 	sprite_index=spr_player_walking;
 	if(left){
-		x=x-movement;
+		if(place_free(x-movement,y))
+		{x=x-movement;}
 		image_xscale=-1;
 	}
 	else if(right){
-		x=x+movement;
+		if(place_free(x+movement,y))
+		{x=x+movement;}
 		image_xscale=1;
 	}
 	else if(!left && !right){

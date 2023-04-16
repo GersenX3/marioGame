@@ -3,3 +3,4 @@
 movement=2;
 state = scr_playerStateIddle;
 jump = true;
+camera=true;

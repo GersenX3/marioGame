@@ -7,6 +7,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_dickHead","path":"objects/obj_dickHead/obj_dickHead.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -39,6 +40,9 @@
     "name": "spr_player_iddle",
     "path": "sprites/spr_player_iddle/spr_player_iddle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_collisionMask",
+    "path": "sprites/spr_collisionMask/spr_collisionMask.yy",
+  },
   "visible": true,
 }
