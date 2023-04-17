@@ -13,6 +13,6 @@ function scr_playerStateJumping(){
 		image_xscale=1;
 	}
 	if(alarm[0]<=0){
-		alarm[0]=room_speed*0.5;
+		alarm[0]=room_speed*0.6;
 	}
 }

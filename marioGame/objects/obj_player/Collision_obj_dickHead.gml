@@ -9,8 +9,6 @@ if(collision_rectangle(x-6,y,x+5,y+vspeed+2,obj_dickHead,false,false)){
 }
 }
 else{
-	with(obj_camera){
-		follow=noone;
-	}
 	instance_destroy();
+	room_goto(Room2);
 }

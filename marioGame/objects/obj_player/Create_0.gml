@@ -3,4 +3,6 @@
 movement=2;
 state = scr_playerStateIddle;
 jump = true;
-camera=true;
+if(room ==Room1){
+	audio_play_sound(sound_marioTeme,0,true);
+}

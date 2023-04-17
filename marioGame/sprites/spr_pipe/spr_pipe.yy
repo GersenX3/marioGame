@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_pipe",
   "bbox_bottom": 31,
-  "bbox_left": 2,
-  "bbox_right": 29,
+  "bbox_left": 18,
+  "bbox_right": 45,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bcb0e9f3-6ea3-4ad3-98a5-7735cde31b65",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"40ff899b-1056-4c3b-84ce-4b636723e8ac",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d3cdd6e4-50cd-470a-9967-46f5f1899a22","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e7b78914-6903-4904-ae45-7658ff85cb5b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bcb0e9f3-6ea3-4ad3-98a5-7735cde31b65","path":"sprites/spr_pipe/spr_pipe.yy",},},},"Disabled":false,"id":"ec953bd3-32bb-469e-bfae-a3ae3a1e61a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"40ff899b-1056-4c3b-84ce-4b636723e8ac","path":"sprites/spr_pipe/spr_pipe.yy",},},},"Disabled":false,"id":"73a33b99-0222-4580-a1bd-17f3b15c5cca","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 48,
 }
